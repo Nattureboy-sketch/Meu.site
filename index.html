@@ -1,49 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Música Melancólica</title>
-
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <header>
+  <!-- música ambiente -->
+  <audio autoplay loop>
+    <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8b1f2.mp3?filename=ambient-piano-112191.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="overlay"></div>
+
+  <header class="hero">
     <h1>Música Melancólica</h1>
-    <p>sons que parecem lembranças que não aconteceram</p>
+    <p class="subtitle">sons que parecem lembranças que nunca aconteceram</p>
   </header>
 
-  <section class="hero">
-    <h2>Bem-vindo ao silêncio sonoro</h2>
-    <p>
-      Aqui a música não anima. Ela lembra. Ela pesa. Ela abraça o vazio com delicadeza.
-    </p>
-  </section>
+  <main class="container">
 
-  <section class="cards">
+    <section class="card">
+      <h2>Ambient</h2>
+      <p>sons longos, vazios, como se o tempo tivesse esquecido de andar</p>
+    </section>
 
-    <div class="card">
-      <h3>Ambient</h3>
-      <p>Texturas sonoras que parecem névoa e memória.</p>
-    </div>
+    <section class="card">
+      <h2>Indie Sad</h2>
+      <p>violões quebrados e vozes que soam como pensamentos não ditos</p>
+    </section>
 
-    <div class="card">
-      <h3>Indie Sad</h3>
-      <p>Violões simples, vozes quebradas e sentimentos que não se explicam.</p>
-    </div>
+    <section class="card">
+      <h2>Clássica Melancólica</h2>
+      <p>pianos lentos que parecem chover dentro da memória</p>
+    </section>
 
-    <div class="card">
-      <h3>Clássica triste</h3>
-      <p>Pianos lentos que soam como chuva em janela antiga.</p>
-    </div>
-
-  </section>
+  </main>
 
   <footer>
-    <p>feito para quem sente demais e fala de menos.</p>
+    <p>feito em silêncio, para quem sente demais</p>
   </footer>
 
 </body>
-  </html>
+</html>
